@@ -1,0 +1,410 @@
+# travelier
+travelling website
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>TRAVELIERS</title>
+
+    <!--font awesome icons-->
+    <link rel="stylesheet"href="./css/all.css">
+
+    <!-- Home css file-->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- AOS library-->
+    <link rel="stylesheet" href="./css/aos.css">
+
+    <!--custom style-->
+    <link rel="stylesheet"href="./css./style.css">
+
+</head>
+
+<body>
+
+    <!------------------------------navigation----------------------------------------->
+
+  <nav class="nav">
+    <div class="nav-menu flex-row">
+      <div class="nav-brand">
+        <a href="#" class="text-gray">TRAVELIERS</a>
+      </div>
+      <div class="toggle-collapse">
+        <div class="toggle-icons">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <div> 
+        <ul class="nav-items">
+          <li class="nav-link">
+            <a href="MAIN.html">Home</a>
+          </li>
+          <li class="nav-link">
+            <a href="About us.html">About us</a>
+          </li>
+          <li class="nav-link">
+            <a href="Gallery.html">Gallery</a>
+          </li>
+          <li class="nav-link">
+            <a href="Contact us.html">Contact us</a>
+          </li>
+          <li class="nav-link">
+            <a href="Location.html">Location</a>
+          </li>
+        </ul>
+      </div>
+      <div class="social text-gray">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div> 
+  </nav>    
+  
+    <!----------------x--------------navigation------------------x----------------------->
+
+    <!--------------------------- Main site section --------------------------->
+
+    <main>
+
+      <!----------------------- site title ----------------------->
+
+      <section class="site-title">
+        <div class="site-background">
+          <h3>Tour & Travel</h3>
+          <h1>Amaizing places in the world</h1>
+          <button class="btn">Explore</button>
+        </div>
+      </section>
+
+      <!------------x----------- site title ------------x----------->
+
+      
+      <!-- ------------------site content------------------ -->
+
+      <section class="container">
+        <div class="site-content">
+          <div class="post">
+            <div class="post-content">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/images9.jpg" class="img" alt="blog1">
+                 </div>
+                <div class="post-info flex-row">
+                  <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;january 14, 2022</span>
+                  <span>&nbsp;&nbsp;2 comments</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#">Why should people visit around the world</a>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis delectus ipsum maxime fuga molestias soluta quis dolore laborum quod quibusdam est aspernatur, sit accusamus corporis excepturi sequi recusandae deserunt quia veniam optio, ut atque id quaerat. Adipisci laudantium maiores sunt.
+                </p>
+                <button class="btn1 post-btn">Read more&nbsp; <i class="fas fa-arrow-right"></i></button>
+              </div>    
+            </div>
+            <hr>
+            <div class="post-content">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/download13.jpg" class="img" alt="blog1">
+                 </div>
+                <div class="post-info flex-row">
+                  <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;january 14, 2022</span>
+                  <span>&nbsp;&nbsp;2 comments</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#">Why should people visit around the world</a>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis delectus ipsum maxime fuga molestias soluta quis dolore laborum quod quibusdam est aspernatur, sit accusamus corporis excepturi sequi recusandae deserunt quia veniam optio, ut atque id quaerat. Adipisci laudantium maiores sunt.
+                </p>
+                <button class="btn1 post-btn">Read more&nbsp; <i class="fas fa-arrow-right"></i></button>
+              </div>    
+            </div>
+            <hr>
+            <div class="post-content">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/download5.jpg" class="img" alt="blog2">
+                 </div>
+                <div class="post-info flex-row">
+                  <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;january 14, 2022</span>
+                  <span>&nbsp;&nbsp;2 comments</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#">Why should people visit around the world</a>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis delectus ipsum maxime fuga molestias soluta quis dolore laborum quod quibusdam est aspernatur, sit accusamus corporis excepturi sequi recusandae deserunt quia veniam optio, ut atque id quaerat. Adipisci laudantium maiores sunt.
+                </p>
+                <button class="btn1 post-btn">Read more&nbsp; <i class="fas fa-arrow-right"></i></button>
+              </div>    
+            </div>
+            <hr>
+            <div class="post-content">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/images19.jpg" class="img" alt="blog3">
+                 </div>
+                <div class="post-info flex-row">
+                  <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;january 14, 2022</span>
+                  <span>&nbsp;&nbsp;2 comments</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#">Why should people visit around the world</a>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis delectus ipsum maxime fuga molestias soluta quis dolore laborum quod quibusdam est aspernatur, sit accusamus corporis excepturi sequi recusandae deserunt quia veniam optio, ut atque id quaerat. Adipisci laudantium maiores sunt.
+                </p>
+                <button class="btn1 post-btn">Read more&nbsp; <i class="fas fa-arrow-right"></i></button>
+              </div>    
+            </div>
+            <hr>
+            <div class="post-content">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/images26.jpg" class="img" alt="blog4">
+                 </div>
+                <div class="post-info flex-row">
+                  <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;january 14, 2022</span>
+                  <span>&nbsp;&nbsp;2 comments</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#">Why should people visit around the world</a>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis delectus ipsum maxime fuga molestias soluta quis dolore laborum quod quibusdam est aspernatur, sit accusamus corporis excepturi sequi recusandae deserunt quia veniam optio, ut atque id quaerat. Adipisci laudantium maiores sunt.
+                </p>
+                <button class="btn1 post-btn">Read more&nbsp; <i class="fas fa-arrow-right"></i></button>
+              </div>    
+            </div>
+            <div class="pagination flex-row">
+              <a href="#"><i class="fas fa-chevron-left"></i></a>
+              <a href="#" class="pages">1</a>
+              <a href="#" class="pages">2</a>
+              <a href="#" class="pages">3</a>
+              <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+          <aside class="sidebar">
+          <div class="category">
+            <h2>category</h2>
+            <ul class="category-list">
+              <li class="list-item">
+                <a href="#">Software</a>
+                <span>(0.5)</span>
+              </li>
+              <li class="list-item">
+                <a href="#">Technology</a>
+                <span>(0.2)</span>
+              </li>
+              <li class="list-item">
+                <a href="#">Shooping</a>
+                <span>(0.7)</span>
+              </li>
+              <li class="list-item">
+                <a href="#">Lifestyle</a>
+                <span>(0.1)</span>
+              </li>
+              <li class="list-item">
+                <a href="#">Food</a>
+                <span>(0.8)</span>
+              </li>
+            </ul>
+          </div>
+          <div class="popular-post">
+            <h2>Popular post</h2>
+            <div class="post-content">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/images8.jpg" class="img" alt="blog1">
+                 </div>
+                <div class="post-info1 flex-row">
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;january 14, 2022</span>
+                  <span>&nbsp;&nbsp;2 com</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#">New data recording system to better analyse road accidents</a>
+              </div>    
+            </div>
+            <div class="post-content">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/images10.jpg" class="img" alt="blog1">
+                 </div>
+                <div class="post-info1 flex-row">
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;january 14, 2022</span>
+                  <span>&nbsp;&nbsp;2 com</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#">New data recording system to better analyse road accidents</a>
+              </div>    
+            </div>
+            <div class="post-content">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/images11.jpg" class="img" alt="blog1">
+                 </div>
+                <div class="post-info1 flex-row">
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;january 14, 2022</span>
+                  <span>&nbsp;&nbsp;2 com</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#">New data recording system to better analyse road accidents</a>
+              </div>    
+            </div>
+            <div class="post-content">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/images12.jpg" class="img" alt="blog1">
+                 </div>
+                <div class="post-info1 flex-row">
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;january 14, 2022</span>
+                  <span>&nbsp;&nbsp;2 com</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#">New data recording system to better analyse road accidents</a>
+              </div>    
+            </div>
+            <div class="post-content">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/images13.jpg" class="img" alt="blog1">
+                 </div>
+                <div class="post-info1 flex-row">
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;january 14, 2022</span>
+                  <span>&nbsp;&nbsp;2 com</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#">New data recording system to better analyse road accidents</a>
+              </div>    
+            </div>
+            <div class="post-content">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/images24.jpg" class="img" alt="blog1">
+                 </div>
+                <div class="post-info1 flex-row">
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;january 14, 2022</span>
+                  <span>&nbsp;&nbsp;2 com</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#">New data recording system to better analyse road accidents</a>
+              </div>    
+            </div>
+          </div>
+          <div class="remarks">
+            <h2>Remarks</h2>
+            <div class="form-element">
+              <input type="text" class="input-element" placeholder="Email">
+              <button class="btn2 form-btn">Subscribe</button>
+            </div>
+          </div>
+          <div class="popular-tags">
+            <h2>Popular tags</h2>
+            <span class="tags">Software</span>
+            <span class="tags">Technology</span>
+            <span class="tags">Travel</span>
+            <span class="tags">Illustration</span>
+            <span class="tags">Designs</span>
+            <span class="tags">Lifestyle</span>
+            <span class="tags">Love</span>
+            <span class="tags">Project</span>
+          </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- ----------x--------site content------------x------ -->
+
+    </main>
+
+    <!--------------x------------- Main site section -------------x-------------->
+
+    <!-----------------------footer-------------------------->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="about-us">
+          <h2>About us</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorum totam et. Sapiente, numquam. Sint ipsam quibusdam nostrum similique adipisci.</p>
+        </div>
+        <div class="remarks">
+          <h2>Remarks</h2>
+          <p>Stay updated with our latest</p>
+          <div class="form-element1">
+            <input type="text" placeholder="Remarks"><span><i class="fa fas-chevron-right-arrow"></i></span>
+          </div>
+        </div>
+        <div class="instagram">
+          <h2>Instagram</h2>
+          <div class="flex-row">
+            <img src="./assets/download2.jpg" alt="insta1">
+            <img src="./assets/download3.jpg" alt="insta2">
+            <img src="./assets/download4.jpg" alt="insta3">
+          </div>
+          <div class="flex-row">
+            <img src="/assets/download12.jpg" alt="insta4">
+            <img src="./assets/download6.jpg" alt="insta5">
+            <img src="./assets/download7.jpg" alt="insta6">
+          </div>
+        </div>
+        <div class="follow">
+          <h2>Follow</h2>
+          <p>Let us be social</p>
+          <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+      <div class="rights flex-row">
+        <h4 class="text-gray">
+          copyright@2022 All rights reserved|made by
+          <a href="https://m.youtube.com/channel/UCBoQTsAEn9yln-1NZOZtYbg/videos" target="_black"> Traveling <i class="fab fa-youtube"></i> channel</a>
+        </h4>
+      </div>
+      <div class="move-up">
+        <span><i class="fas fa-arrow-up fa-2x"></i></span>
+      </div>
+    </footer>
+
+    <!------------x-----------footer--------------x------------>
+
+
+
+
+    <!--Jquery library-->
+    <script src="./JAVASCRIPT/jquery.min.js"></script>
+
+    <!-- owl carousel-->
+    <script src="./JAVASCRIPT/owl.carousel.min.js"></script>
+
+    <!-- AOS js library-->
+    <script src="./JAVASCRIPT/aos.js"></script>
+
+      <!--custom javascript file-->
+    <script src="./JAVASCRIPT/JAVA.js"></script>
+</body>
+
+</html>
